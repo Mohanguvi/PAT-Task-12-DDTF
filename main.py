@@ -90,7 +90,6 @@ class loginTest:
                     
                     """
                     print("Login Unsuccessful")
-                    # write the data in the Excel if the credentials are not OK
                     current_date = datetime.datetime.now().strftime("%d-%m-%Y")
                     current_time = datetime.datetime.now().strftime("%H-%M-%S")
                     data.WebPage().writeExcel(row, 4, current_date)
